@@ -6,8 +6,8 @@ export const Footer = () => {
     <div className='w-full bg-[#f1f1f1] flex flex-col p-4 h-max'>
         <div className='w-full h-max border border-black flex items-center lg:flex-row flex-col'>
             <div>
-                <h1></h1>
-                <p></p>
+                <h1 className='text-3xl text-[#333]'>Join our newsletter</h1>
+                <p>We’ll send you a nice letter once per week. No spam.</p>
             </div>
             <div>
                 <form action="">
@@ -107,7 +107,7 @@ export const Footer = () => {
 
                         </span>
                     </NavLink>
-                    <NavLink to="/404">
+                    <NavLink to="*">
                         <span>
 
                         </span>
