@@ -4,13 +4,18 @@ import "@fontsource/poppins/300.css"; // Light
 import "@fontsource/poppins/600.css"; // Semi-Bold
 import "@fontsource/poppins/700.css"; // Bold
 import { Footer } from "./components/layout/Footer";
+import { BrowserRouter } from "react-router-dom";
+import { AnimatedRoutes } from "./routes/AnimatedRoutes";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <div className="w-full h-max">
+        <Navbar />
+        <AnimatedRoutes/>
+        <Footer/>
+      </div>
+    </BrowserRouter>
   );
 }
 
