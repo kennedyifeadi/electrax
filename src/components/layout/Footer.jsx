@@ -10,7 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className='w-full bg-[#f1f1f1] flex flex-col p-4 h-max' style={{fontFamily:" 'Inter', sans-serif"}}>
+    <div className='w-full bg-[#f1f1f1] flex flex-col px-4 pt-4 h-max gap-4' style={{fontFamily:" 'Inter', sans-serif"}}>
         <div className='w-full h-max flex lg:flex-row flex-col px-4'>
             <div className="w-full h-[20dvh] md:h-[28dvh] lg:h-[32dvh] md:w-[60%] lg:w-[50%] flex flex-col gap-4 justify-center">
                 <h1 className='text-2xl md:text-3xl lg:text-4xl font-semibold text-[#333]'>Join our newsletter</h1>
@@ -69,7 +69,7 @@ export const Footer = () => {
                     </span>
                 </div>
             </div>
-            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max'>
+            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max px-4 md:px-0'>
                 <h1 className='text-[#666666] font-semibold text-[16px]'>
                 Prodcut
                 </h1>
@@ -86,7 +86,7 @@ export const Footer = () => {
                     </NavLink>
                 </div>
             </div>
-            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max'>
+            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max px-4 md:px-0'>
                 <h1 className='text-[#666666] font-semibold text-[16px]'>
                 Company
                 </h1>
@@ -116,7 +116,7 @@ export const Footer = () => {
                     </NavLink>
                 </div>
             </div>
-            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max'>
+            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max px-4 md:px-0'>
                 <h1 className='text-[#666666] font-semibold text-[16px]'>
                 Other Pages
                 </h1>
@@ -154,27 +154,33 @@ export const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='w-full h-[12dvh] flex justify-between items-center md:flex-row flex-col'>
-            <div>
+        <div className='w-full h-[10dvh] flex md:justify-between md:items-center md:flex-row flex-col px-4'>
+            <div className='flex flex-1 gap-4 h-full items-center'>
                <NavLink to="/system/license">
-                    <span className="text-md md:text-lg text-[#333] font-medium">
-
+                    <span className="text-sm md:text-[18px] text-[#333] font-normal">
+                    Licenses
                     </span>
                </NavLink>
                <NavLink to="/system/style-guide">
-                    <span className="text-md md:text-lg text-[#333] font-medium">
-
+                    <span className="text-sm md:text-[18px] text-[#333] font-normal">
+                    Style Guide
                     </span>
                </NavLink>
                <NavLink to="/system/change-log">
-                    <span className="text-md md:text-lg text-[#333] font-medium">
-
+                    <span className="text-sm md:text-[18px] text-[#333] font-normal">
+                    Change Log
                     </span>
                </NavLink>
             </div>
-            <div>
-               <span></span>
-               <span></span>
+            <div className='flex flex-1 gap-4 h-full items-center'>
+               <span className="text-sm md:text-[18px] text-[#333] font-medium">
+               Made by JFK Bright
+
+               </span>
+               <span className="text-sm md:text-[18px] text-[#333] font-medium">
+                Powered by Webflow
+
+               </span>
             </div>
         </div>
     </div>
