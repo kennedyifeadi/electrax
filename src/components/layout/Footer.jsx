@@ -1,5 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { IoLogoTwitter } from "react-icons/io5";
+import { TiSocialFacebook } from "react-icons/ti";
+import { RiLinkedinFill } from "react-icons/ri";
+import { FiYoutube } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
+
+
 
 export const Footer = () => {
   return (
@@ -19,101 +26,128 @@ export const Footer = () => {
                 </span>
             </div>
         </div>
-        <div className='flex flex-wrap w-full h-max'>
-            <div className='w-full lg:w-[40%] border-black md:w-[50%] h-max border'>
-                <div></div>
+        <div className='flex flex-wrap w-full h-max gap-y-4'>
+            <div className='w-full lg:w-[40%] md:w-[50%] h-max flex flex-col gap-4 px-4'>
                 <div>
-                    <h1>
-
+                    <h1 className='text-4xl text-[#333] tracking-wider'>
+                        <span>
+                            ELECTRA
+                        </span>
+                        <span className='font-medium'>
+                            X
+                        </span>
                     </h1>
-                    <p>
-
+                </div>
+                <div className='flex flex-col gap-4'>
+                    <h1 className='font-medium text-[#333] text-xl'>
+                        About us
+                    </h1>
+                    <p className='text-[#333] text-[16px] w-full md:w-[80%]'>
+                        We blend the timeless elegance of the iconic Electra with cutting-edge technology to create     personal aircraft that redefine the skies. Our mission is to honor aviation history while   pioneering the future of personal flight.
                     </p>
                 </div>
-                <div>
-                    <h1>
-
+                <div className='flex flex-col gap-4'>
+                    <h1 className='font-medium text-[#333] text-xl'>
+                        Follow us
                     </h1>
-                    <span>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
+                    <span className='flex gap-4'>
+                        <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
+                            <IoLogoTwitter />
+                        </a>
+                        <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
+                            <TiSocialFacebook />
+                        </a>
+                        <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
+                            <RiLinkedinFill />  
+                        </a>
+                        <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
+                            <FiYoutube />
+                        </a>
+                        <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
+                            <FaInstagram />
+                        </a>
                     </span>
                 </div>
             </div>
-            <div className='w-full lg:w-[20%] border-black md:w-[50%] h-max border'>
-                <h1>
-
+            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max'>
+                <h1 className='text-[#666666] font-semibold text-[16px]'>
+                Prodcut
                 </h1>
-                <div>
+                <div className='flex flex-col gap-4'>
                     <NavLink to="/">
-                        <span>
-
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                            Home
                         </span>
                     </NavLink>
                     <NavLink to="/product-page">
-                        <span>
-
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        ElectraX Airplane
                         </span>
                     </NavLink>
                 </div>
             </div>
-            <div className='w-full lg:w-[20%] border-black md:w-[50%] h-max border'>
-                <h1>
-
+            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max'>
+                <h1 className='text-[#666666] font-semibold text-[16px]'>
+                Company
                 </h1>
-                <div>
+                <div className='flex flex-col gap-4'>
                     <NavLink to="/about">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        About us
 
                         </span>
                     </NavLink>
                     <NavLink to="/careers">
-                        <span>
-
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        Careers
                         </span>
                     </NavLink>
                     <NavLink to="/news">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        News
 
                         </span>
                     </NavLink>
                     <NavLink to="/contact">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        Contact
 
                         </span>
                     </NavLink>
                 </div>
             </div>
-            <div className='w-full lg:w-[20%] border-black md:w-[50%] h-max border'>
-                <h1>
-
+            <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max'>
+                <h1 className='text-[#666666] font-semibold text-[16px]'>
+                Other Pages
                 </h1>
-                <div>
+                <div className='flex flex-col gap-4'>
                     <NavLink to="/system/license">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        Licenses
 
                         </span>
                     </NavLink>
                     <NavLink to="/system/style-guide">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        Style Guide
 
                         </span>
                     </NavLink>
                     <NavLink to="/system/change-log">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        Change Log
 
                         </span>
                     </NavLink>
                     <NavLink to="*">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        404 page
 
                         </span>
                     </NavLink>
                     <NavLink to="/401">
-                        <span>
+                        <span className="text-md md:text-lg text-[#333] font-medium">
+                        Protected page
 
                         </span>
                     </NavLink>
@@ -123,17 +157,17 @@ export const Footer = () => {
         <div className='w-full h-[12dvh] flex justify-between items-center md:flex-row flex-col'>
             <div>
                <NavLink to="/system/license">
-                    <span>
+                    <span className="text-md md:text-lg text-[#333] font-medium">
 
                     </span>
                </NavLink>
                <NavLink to="/system/style-guide">
-                    <span>
+                    <span className="text-md md:text-lg text-[#333] font-medium">
 
                     </span>
                </NavLink>
                <NavLink to="/system/change-log">
-                    <span>
+                    <span className="text-md md:text-lg text-[#333] font-medium">
 
                     </span>
                </NavLink>
