@@ -172,7 +172,7 @@ export const Footer = () => {
                     </span>
                </NavLink>
             </div>
-            <div className='flex flex-1 gap-4 h-full items-center'>
+            <div className='flex flex-1 md:justify-end gap-4 h-full items-center'>
                <span className="text-sm md:text-[18px] text-[#333] font-medium">
                Made by JFK Bright
 
