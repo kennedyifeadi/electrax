@@ -3,7 +3,7 @@ import Button from "../ui/Buttons";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-8 my-2">
+    <div className="flex justify-between px-8 my-2 absolute top-0 z-40 w-full">
       <NavLink to="/">
       <h1 className="flex items-center text-3xl text-[#333] tracking-wider">
         <span>ELECTRA</span>
