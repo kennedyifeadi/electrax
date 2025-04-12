@@ -10,7 +10,7 @@ import { AnimatedRoutes } from "./routes/AnimatedRoutes";
 function App() {
   return (
     <BrowserRouter>
-      <div className="w-full h-max flex flex-col">
+      <div className="w-full h-max flex flex-col relative">
         <Navbar />
         <AnimatedRoutes/>
         <Footer/>
