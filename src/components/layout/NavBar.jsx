@@ -1,30 +1,47 @@
-// import electrax from "../../assets/electrax.png";
+import { NavLink } from "react-router-dom";
 import Button from "../ui/Buttons";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-8 my-2">
-      <h1 className="">ELECTRAX</h1>
+    <div className="flex justify-between px-8 my-2 absolute top-0 z-40 w-full">
+      <NavLink to="/">
+      <h1 className="flex items-center text-3xl text-[#333] tracking-wider">
+        <span>ELECTRA</span>
+        <span className="font-medium">X</span>
+      </h1>
+      </NavLink>
       <div className="flex space-x-9">
-        <a
-          href=""
+        <NavLink
+          to="/product-page"
           className="text-[#333333] hover:text-gray-400 py-2 capitalize transition-colors duration-300 font-poppins"
         >
           ElectraX
-        </a>
+        </NavLink>
 
-        <a href="" className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins">
+        <NavLink
+          to="/about"
+          className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins"
+        >
           About
-        </a>
-        <a href="" className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins ">
+        </NavLink>
+        <NavLink
+          to="/careers"
+          className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins "
+        >
           careers
-        </a>
-        <a href="" className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins ">
+        </NavLink>
+        <NavLink
+          to="/news"
+          className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins "
+        >
           News
-        </a>
-        <a href="" className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins ">
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="hover:text-gray-400 py-2 text-[#333333] capitalize transition-colors duration-300 font-poppins "
+        >
           Contact
-        </a>
+        </NavLink>
 
         <Button text="Clone Template" />
       </div>
