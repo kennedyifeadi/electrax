@@ -46,7 +46,7 @@ export const Landing = () => {
       <div className="relative z-20 w-full h-full flex flex-col items-center mt-20 ">
         <div className="w-full flex flex-col gap-4 items-center">
           <h1 className="text-[#fff] w-full text-4xl tracking-wide text-center md:text-6xl lg:text-7xl uppercase font-[300] font-poppins">Introducing Electra<span className="font-semibold">X</span></h1>
-          <p className="text-[#fff] w-[80%] text-xl md:text-2xl text-center">Where Classic Elegance Meets Tomorrow’s Flight</p>
+          <p className="text-[#fff] w-[80%] text-lg md:text-2xl text-center">Where Classic Elegance Meets Tomorrow’s Flight</p>
         </div>
         <div className="flex flex-wrap justify-center w-[90%] md:w-[60%] gap-8 lg:gap-12 mt-[200px] md:mt-[550px]">
           {planeSpecs.map((spec, index) => (
