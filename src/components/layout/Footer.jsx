@@ -1,10 +1,9 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { IoLogoTwitter } from "react-icons/io5";
-import { TiSocialFacebook } from "react-icons/ti";
-import { RiLinkedinFill } from "react-icons/ri";
-import { FiYoutube } from "react-icons/fi";
-import { FaInstagram } from "react-icons/fa";
+// import { IoLogoTwitter } from "react-icons/io5";
+// import { TiSocialFacebook } from "react-icons/ti";
+// import { RiLinkedinFill } from "react-icons/ri";
+// import { FiYoutube } from "react-icons/fi";
+// import { FaInstagram } from "react-icons/fa";
 
 
 
@@ -50,7 +49,7 @@ export const Footer = () => {
                     <h1 className='font-medium text-[#333] text-xl'>
                         Follow us
                     </h1>
-                    <span className='flex gap-4'>
+                    {/* <span className='flex gap-4'>
                         <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
                             <IoLogoTwitter />
                         </a>
@@ -66,7 +65,7 @@ export const Footer = () => {
                         <a href="" className='md:w-12 md:h-12 rounded-full w-10 h-10 flex justify-center items-center bg-[#d4d4d4]'>
                             <FaInstagram />
                         </a>
-                    </span>
+                    </span> */}
                 </div>
             </div>
             <div className='w-full lg:w-[20%] flex flex-col gap-4 md:w-[50%] h-max px-4 md:px-0'>
