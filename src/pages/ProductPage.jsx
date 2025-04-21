@@ -5,7 +5,7 @@ import { ParralaxSection } from '../components/ProductPageCom/ParralaxSection'
 
 export const ProductPage = () => {
   return (
-    <div className='flex flex-col w-full h-max'>
+    <div className='flex flex-col w-full h-max relative'>
       <Landing/>
       <Aereodynamics/>
       <ParralaxSection/>
